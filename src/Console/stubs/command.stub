@@ -1,0 +1,19 @@
+<?php
+
+namespace DummyNamespace;
+
+use BlackRiver\TelegramBot\Http\BotCommands\Command;
+
+class DummyClass extends Command
+{
+    /**
+     * Handle the command.
+     *
+     * @param  string  $message
+     * @return void
+     */
+    public function handle($message)
+    {
+        //
+    }
+}
